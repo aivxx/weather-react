@@ -7,7 +7,7 @@ export default function Footer() {
       <span className="row week-days" id="forecast"></span>
       <span className="codedBy">
         <a
-          href="https://github.com/aivxx/shecodes-WeatherApp"
+          href="https://github.com/aivxx/weather-react"
           target="_blank"
           rel="noreferrer"
         >
