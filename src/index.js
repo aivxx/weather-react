@@ -1,10 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import Search from "./Search";
-import Temp from "./Temp";
-import City from "./City";
-import Forecast from "./Forecast";
-import Footer from "./Footer";
+import Search from "./search";
+import Temp from "./temp";
+import City from "./city";
+import Forecast from "./forecast";
+import Footer from "./footer";
 
 export default function App() {
   return (
