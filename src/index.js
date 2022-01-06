@@ -10,19 +10,19 @@ export default function App() {
   return (
     <div className="App">
       <Search />
-      <span className="row">
-        <span className="col">
+      <div className="row">
+        <div className="col">
           <City />
           <Temp />
-        </span>
+        </div>
 
-        <span className="col">
+        <div className="col">
           <Forecast />
-        </span>
-        <span className="col">
+        </div>
+        <div className="col">
           <Footer />
-        </span>
-      </span>
+        </div>
+      </div>
     </div>
   );
 }

@@ -15,9 +15,9 @@ export default function Search() {
         <input type="submit" value="Search" />
 
         <button className="location">
-          <span className="locationImg" role="img" aria-label="pin">
+          <div className="locationImg" role="img" aria-label="pin">
             📍
-          </span>
+          </div>
         </button>
       </form>
     </div>

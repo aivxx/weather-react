@@ -3,24 +3,24 @@ import "./styles.css";
 
 export default function Temp() {
   return (
-    <span className="currentEmoji">
+    <div className="currentEmoji">
       <img
         src="http://openweathermap.org/img/wn/10d@2x.png"
         alt="Clear"
         id="icon"
         className="float-left"
       />
-      <span className="dayTemp">31</span>
-      <span className="celsius-fahrenheit">
-        <span className="celsius">
-          <span id="fahrenheit" className="active">
+      <div className="dayTemp">31</div>
+      <div className="celsius-fahrenheit">
+        <div className="celsius">
+          <div id="fahrenheit" className="active">
             °F |
-          </span>
-          <span className="fahrenheit">
-            <span id="celsius"> °C </span>
-          </span>
-        </span>
-      </span>
-    </span>
+          </div>
+          <div className="fahrenheit">
+            <div id="celsius"> °C </div>
+          </div>
+        </div>
+      </div>
+    </div>
   );
 }

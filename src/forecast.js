@@ -4,16 +4,16 @@ import "./styles.css";
 export default function Forecast() {
   return (
     <div className="forecast">
-      <span className="humidity">Humidity:</span>
-      <span className="humidPercent">20%</span>
+      <div className="humidity">Humidity:</div>
+      <div className="humidPercent">20%</div>
       <br />
-      <span className="feelsLike">Feels Like:</span>
-      <span className="feelsType">34°</span>
+      <div className="feelsLike">Feels Like:</div>
+      <div className="feelsType">34°</div>
       <br />
-      <span className="wind">Wind Speed:</span>
-      <span className="windSpeed">10mph</span>
+      <div className="wind">Wind Speed:</div>
+      <div className="windSpeed">10mph</div>
       <br />
-      <span className="sky">Clear</span>
+      <div className="sky">Clear</div>
     </div>
   );
 }
