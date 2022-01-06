@@ -5,6 +5,7 @@ import Temp from "./temp";
 import City from "./city";
 import Forecast from "./forecast";
 import Footer from "./footer";
+import Button from "react-bootstrap/Button";
 
 export default function App() {
   return (
