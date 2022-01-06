@@ -6,8 +6,7 @@ export default function City() {
     <div className="current">
       <div className="currentWeather">
         <div className="city">West Palm Beach</div>
-        <br />
-        <div className="currentDay">null</div>
+        <div className="currentDay">null</div>{" "}
         <div className="currentTime">null</div>
       </div>
     </div>
