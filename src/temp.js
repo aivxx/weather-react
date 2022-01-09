@@ -11,7 +11,7 @@ export default function Temp() {
           id="icon"
           className="float-left"
         />
-        <div className="dayTemp">{temperaure}</div>
+        <div className="dayTemp"></div>
         <div className="celsius-fahrenheit">
           <div className="celsius">
             <div id="fahrenheit" className="active">

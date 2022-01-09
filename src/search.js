@@ -8,7 +8,8 @@ export default function Search() {
   const [temperature, setTemperature] = useState(null);
   function handleResponse(response) {
     console.log(response.data);
-    setTemperature(response.data.main.temp);
+    setTemperature(Math.round.response.data.main.temp);
+    setReady(true);
   }
 
   if (ready) {
@@ -30,9 +31,30 @@ export default function Search() {
             </div>
           </button>
         </form>
+
+        <div className="tempContainer">
+          <div className="currentEmoji">
+            <img
+              src="http://openweathermap.org/img/wn/10d@2x.png"
+              alt="Clear"
+              id="icon"
+              className="float-left"
+            />
+            <div className="dayTemp">{temperature}</div>
+            <div className="celsius-fahrenheit">
+              <div className="celsius">
+                <div id="fahrenheit" className="active">
+                  °F |
+                </div>
+                <div className="fahrenheit">
+                  <div id="celsius"> °C </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     );
-    <Temp />;
   } else {
     const apiKey = "04bde8cc7f569f7c5603cdbc6deb89a3";
     let city = "Miami";
